@@ -1,0 +1,6 @@
+﻿2. Responda, quais recursos foram utilizados para resolução desseproblema?
+
+Resposta: Operadores, variáveis e constantes,Console.Write(),Console.Read()
+
+3. Responda, quais tipos de variáveis foram utilizadas nessa atividade?
+	string e int 

@@ -1,0 +1,15 @@
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.csproj.AssemblyReference.cache
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.AssemblyInfoInputs.cache
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.AssemblyInfo.cs
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.csproj.CoreCompileInputs.cache
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\bin\Debug\net6.0\RefatoracaoDolar.exe
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\bin\Debug\net6.0\RefatoracaoDolar.deps.json
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\bin\Debug\net6.0\RefatoracaoDolar.runtimeconfig.json
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\bin\Debug\net6.0\RefatoracaoDolar.dll
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\bin\Debug\net6.0\RefatoracaoDolar.pdb
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.dll
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\refint\RefatoracaoDolar.dll
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.pdb
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\RefatoracaoDolar.genruntimeconfig.cache
+C:\Users\anderlanys\Desktop\DhMe\Mesa6\RefatoracaoDolar\RefatoracaoDolar\obj\Debug\net6.0\ref\RefatoracaoDolar.dll

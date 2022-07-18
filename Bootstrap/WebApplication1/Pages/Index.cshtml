@@ -1,0 +1,58 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "To-do list";
+}
+
+    <div class="container">
+        <div class="row mb-3">
+
+            <div class="col">
+            <h1>To-do List</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-auto">
+                <input type="text" class="form-control" id="todo" placeholder="Add task..."/>
+            </div>
+        <div class="col-auto">
+            <button type="button" class="btn btn-primary"> + </button>
+        </div>
+    </div>
+
+    <div class="row">
+            <br/>
+            <label for="todolist" class="form-label"> My tasks </label>
+            <ul class="list-group">
+            @{
+                string[] Tasks = { "Task 1", "Task 2" };
+                @foreach(string Todo in Tasks)
+                {
+                    <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-auto">
+                            <input 
+                                class="form-check-input me-3" 
+                                type="checkbox" 
+                            >
+                        </div>
+                                <div class="col">
+                                
+                                @Todo
+                                
+                                </div>
+                                <div class="col-auto">
+                                    <button class="btn btn-sm btn-danger">
+                                        Delete
+                                    </button>
+                                </div>
+                    </div>
+                    </li>
+                }
+            }
+
+
+            </ul>
+    </div>
+        
