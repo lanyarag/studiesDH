@@ -1,2 +1,2 @@
 # studiesDH
-Basics of Git, Bootstrap, C#
+Basics of Git, C#, ASPNET
