@@ -1,0 +1,20 @@
+﻿@{
+}
+<div>
+	<h1>
+		Página do Cliente
+
+	</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut finibus felis. Proin interdum eros vitae lacus varius eleifend. Pellentesque fermentum leo et lectus cursus, non imperdiet massa mollis. Curabitur egestas pulvinar velit eu iaculis. Cras sed posuere libero. Etiam mauris turpis, interdum sed augue sit amet, cursus elementum metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sagittis fringilla ipsum at tempor. Suspendisse potenti. Integer vestibulum, odio ut fermentum dictum, quam augue condimentum quam, sed eleifend turpis ligula et augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris elementum nisl in nulla malesuada, a sodales lacus dictum. Cras et placerat neque. Vestibulum condimentum lectus est, hendrerit bibendum nulla cursus ac. Ut convallis condimentum varius.</p>
+	<h3>Nome de um cliente: @ViewBag.Nome</h3>
+	<h3> Outro cliente: @ViewBag.Cliente</h3>
+	<h3>
+		Todos os clientes:
+		<ul>
+			@foreach (var clientes in ViewBag.TodosClientes)
+			{
+				<li>@clientes</li>
+			}
+		</ul>
+	</h3>
+</div>
