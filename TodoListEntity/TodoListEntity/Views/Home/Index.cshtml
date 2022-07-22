@@ -1,0 +1,52 @@
+﻿@{
+	string[] TaskList = { "Task 1", "Task 2" };
+}
+<style>
+	.flex-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 20px;
+	}
+
+	.box 
+	{
+		border: 1px solid black;
+		margin: 15px;
+	}
+</style>
+
+<h1> To-do List</h1>
+<div class="row">
+	<div class="col">
+		<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Add a new task here! :)">
+	</div>
+	<div class="col">
+		<button type="button" class="btn btn-primary"> + </button>
+	</div>
+</div>
+
+<br />
+
+<div>
+	<h5> My tasks: </h5>
+	<br />
+
+	@{
+		foreach (var item in TaskList)
+		{
+					<div class="list-group box">
+						<ul class="flex-container">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+							<div class="text-content">
+								@item
+							</div>
+							<div>
+								<button type="button" class="btn btn-danger btn-sm">Delete</button>
+							</div>
+						</ul>
+					</div>
+		}
+	}
+</div>
+</li>
