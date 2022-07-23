@@ -1,0 +1,53 @@
+﻿@{
+	string ClassStatus(string status)
+	{
+		switch (status)
+		{
+			case "Disapproved":
+				return "table-danger";
+				break;
+			case "Recuperation":
+				return "table-warning";
+				break;
+			default:
+				return "table-default";
+				break;
+		}
+	}
+}
+
+<div class="app">
+	<div class="header">
+		<h3> &#127891 School App</h3>
+		<br />
+		<h2> #1 Class</h2>
+		<div class="row seachbar">
+			<input style="width: 70%" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Student's name'">
+			<button style="width: 20%; background:blue" , class="btn" type="submit">&#128269;</button>
+		</div>
+	</div>
+	<div class="tableStudents">
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Name</th>
+					<th scope="col">Last Name</th>
+					<th scope="col">Status</th>
+				</tr>
+			</thead>
+			</br>
+			<tbody>
+				@foreach (Student item in ViewBag.Student)
+				{
+				<tr class="@ClassStatus(item.Status)">
+					<td>@item.Id</td>
+					<td>@item.Name</td>
+					<td>@item.LastName</td>
+					<td>@item.Status</td>
+				</tr>	
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
