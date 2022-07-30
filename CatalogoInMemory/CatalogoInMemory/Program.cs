@@ -6,8 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<CatalogContext>(opt => opt.UseInMemoryDatabase("ActorModel"));
-builder.Services.AddDbContext<CatalogContext>(opt => opt.UseInMemoryDatabase("MovieModel"));
+builder.Services.AddDbContext<CatalogContext>(opt => opt.UseInMemoryDatabase("CatalogContext"));
 
 
 var app = builder.Build();
