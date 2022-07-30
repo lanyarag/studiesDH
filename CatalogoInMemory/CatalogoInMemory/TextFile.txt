@@ -1,0 +1,4 @@
+﻿- Models: 
+1. Fazer relacionamentos entre Atores e filmes - como retornar na view? 
+2. A Index-Home está vazia, mesmo cadastrando novos atores e filmes 
+3. Cadastro do filme está com formatos errados de data e duração
