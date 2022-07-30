@@ -1,0 +1,85 @@
+﻿@{
+	string Classe(Materia status)
+	{
+		if (status.Status == "Aprovado")
+		{
+			return "table-success";
+		}
+		else
+		{
+			return "table-warning";
+		}
+	}
+}
+
+<div>
+	<header>
+	</header>
+	<h1>
+		🎓 App Escola
+	</h1>
+	<h2>
+		#1 @foreach (AlunoModel aluno in ViewBag.Lista)
+		{
+			@aluno.Name
+		}
+
+		@foreach (AlunoModel aluno in ViewBag.Lista)
+		{
+			@aluno.LastName
+		}
+	</h2>
+	<br />
+	<h3>
+		@foreach (AlunoModel aluno in ViewBag.Lista)
+		{
+			@aluno.DataNascimento
+		}
+		(@foreach (AlunoModel aluno in ViewBag.Lista)
+		{
+			@aluno.Idade
+		} anos)
+	</h3>
+	<h3>
+		@foreach (AlunoModel aluno in ViewBag.Lista)
+		{
+			@aluno.Adress
+		}
+	</h3>
+
+	<br />
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">Matérias</th>
+				<th scope="col">1º</th>
+				<th scope="col">2º</th>
+				<th scope="col">3º</th>
+				<th scope="col">4º</th>
+				<th scope="col">Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (AlunoModel aluno in ViewBag.Lista)
+			{
+				@foreach (Materia materias in aluno.Materias)
+				{
+					<tr>
+						<td>
+							@materias.Name
+						</td>
+						@foreach (double nota in materias.Notas)
+						{
+							<td class="@Classe(materias)">
+								@nota
+							</td>
+						}
+						<td class="@Classe(materias)">
+							@materias.Status
+						</td>
+
+					</tr>
+				}
+			}
+</div>
