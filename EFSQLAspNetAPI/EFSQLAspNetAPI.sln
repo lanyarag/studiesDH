@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFSQLAspNetAPI", "EFSQLAspNetAPI\EFSQLAspNetAPI.csproj", "{A238278C-5688-4D6A-8C35-B998C2844B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A238278C-5688-4D6A-8C35-B998C2844B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A238278C-5688-4D6A-8C35-B998C2844B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A238278C-5688-4D6A-8C35-B998C2844B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A238278C-5688-4D6A-8C35-B998C2844B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F64E40-4928-49C8-A0E8-E16EA401E588}
+	EndGlobalSection
+EndGlobal

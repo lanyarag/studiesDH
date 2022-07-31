@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tsqkhICOSOHamRJQRgBQeLxSzBzIq+Ou7aMyGr7gDa8=",
+  "Source": "EFSQLAspNetAPI",
+  "BasePath": "_content/EFSQLAspNetAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
